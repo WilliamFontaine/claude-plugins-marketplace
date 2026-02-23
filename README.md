@@ -39,32 +39,14 @@ Each skill includes detailed reference files (48,000+ words of UX knowledge).
 ## Installation
 
 ```bash
-# Clone the repo
-git clone git@github.com:WilliamFontaine/claude-plugins-marketplace.git
+# Add the marketplace
+claude plugin marketplace add WilliamFontaine/claude-plugins-marketplace
 
-# Install the plugin locally
-claude plugin add ./plugins/ux-expert
+# Install the plugin
+claude plugin install ux-expert@willdev-plugins
 ```
 
-Or add manually to `~/.claude/plugins/installed_plugins.json`:
-
-```json
-"ux-expert@local": [
-  {
-    "scope": "user",
-    "installPath": "/absolute/path/to/plugins/ux-expert",
-    "version": "1.0.0"
-  }
-]
-```
-
-Then enable in `~/.claude/settings.json`:
-
-```json
-"enabledPlugins": {
-  "ux-expert@local": true
-}
-```
+The plugin will be available in your next Claude Code session.
 
 ## Structure
 

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "willdev-plugins",
+  "description": "Custom Claude Code plugins for design, UX, and development workflows",
+  "owner": {
+    "name": "WillDev.IT"
+  },
+  "plugins": [
+    {
+      "name": "ux-expert",
+      "description": "Expert UI/UX plugin: design, validate, and audit interfaces for SaaS, landing pages, and admin portals",
+      "version": "1.0.0",
+      "author": {
+        "name": "WillDev.IT"
+      },
+      "source": "./plugins/ux-expert",
+      "category": "design"
+    }
+  ]
+}
