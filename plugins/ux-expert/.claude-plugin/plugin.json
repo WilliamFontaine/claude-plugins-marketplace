@@ -1,0 +1,10 @@
+{
+  "name": "ux-expert",
+  "version": "1.0.0",
+  "description": "Expert UI/UX plugin: design, validate, and audit interfaces for SaaS, landing pages, and admin portals",
+  "author": {
+    "name": "WillDev.IT"
+  },
+  "license": "MIT",
+  "keywords": ["ux", "ui", "design", "audit", "landing-page", "saas", "accessibility"]
+}
