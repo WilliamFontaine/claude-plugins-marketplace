@@ -1,6 +1,6 @@
 ---
 name: ux-saas-app
-description: This skill should be used when the user asks about "saas", "dashboard", "app interface", "web application", "saas dashboard", "application design", "onboarding flow", "notification system", "settings page", "empty state", or needs guidance on SaaS application UX design.
+description: Use this skill whenever the user mentions SaaS, dashboard, web application, app interface, onboarding, notifications, settings page, empty states, sidebar navigation, command palette, user retention, feature adoption, or any application interface where users log in and perform tasks repeatedly. Also use when designing or reviewing any authenticated web app — even if the user doesn't say "SaaS". If it has a sidebar, a dashboard, or user settings, this skill applies.
 ---
 
 # SaaS Application UX Design

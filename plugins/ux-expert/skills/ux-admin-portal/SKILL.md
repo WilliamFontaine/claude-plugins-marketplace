@@ -1,6 +1,6 @@
 ---
 name: ux-admin-portal
-description: This skill should be used when the user asks about "admin portal", "admin panel", "admin dashboard", "back office", "content management", "user management", "crud interface", "data table", "bulk actions", "role-based access", or needs guidance on admin portal UX design.
+description: Use this skill whenever the user mentions admin portal, admin panel, back office, CMS, content management, user management, CRUD interface, data tables, bulk actions, role-based access, RBAC, filters, search, pagination, or any interface for managing data, users, or content. Also use when building or reviewing any internal tool, management dashboard, or data-heavy interface with tables — even if the user doesn't say "admin". If it has a data table with sorting and filtering, this skill applies.
 ---
 
 # Admin Portal UX Design

@@ -1,6 +1,6 @@
 ---
 name: ux-audit-framework
-description: This skill should be used when the user asks about "ux audit", "ui review", "usability evaluation", "heuristic evaluation", "ux scoring", "interface audit", "accessibility audit", "ux report", or needs to evaluate an existing interface against best practices.
+description: Use this skill whenever the user asks for a UX audit, UI review, usability evaluation, heuristic evaluation, UX scoring, interface audit, accessibility audit, UX report, or wants to evaluate any existing interface against best practices. Also use when the user says "check the UX", "review this UI", "is this accessible", "score this page", or asks for feedback on an implemented interface. If someone has built something and wants to know if the UX is good, this skill provides the evaluation framework.
 ---
 
 # UX Audit Framework

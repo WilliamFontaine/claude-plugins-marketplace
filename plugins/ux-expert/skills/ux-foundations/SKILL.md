@@ -1,6 +1,6 @@
 ---
 name: ux-foundations
-description: This skill should be used when the user asks about "ux design", "ui review", "interface design", "user experience", "usability", "accessibility check", "design system", "ux principles", "Nielsen heuristics", or needs foundational UX knowledge for any interface type. Provides universal UX principles, psychology laws, accessibility guidelines, and design system fundamentals.
+description: Use this skill whenever the user mentions UX, UI, interface design, user experience, usability, accessibility, design systems, Nielsen heuristics, WCAG, color contrast, typography scale, spacing, or any question about how an interface should look, feel, or behave. Also use it when designing, reviewing, or auditing any interface — even if the user doesn't explicitly say "UX". This is the foundational knowledge base that underpins all other ux-expert skills. When in doubt about whether UX principles apply, they do — load this skill.
 ---
 
 # UX Foundations

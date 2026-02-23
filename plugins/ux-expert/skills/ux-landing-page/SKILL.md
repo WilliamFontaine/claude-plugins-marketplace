@@ -1,6 +1,6 @@
 ---
 name: ux-landing-page
-description: This skill should be used when the user asks about "landing page", "marketing page", "conversion page", "hero section", "pricing page", "CTA design", "social proof", "above the fold", or needs guidance on landing page UX and conversion optimization.
+description: Use this skill whenever the user mentions landing page, marketing page, conversion page, hero section, pricing page, CTA, call-to-action, social proof, testimonials, signup form, above the fold, conversion rate, lead generation, or any page whose primary goal is converting visitors. Also use when reviewing or building any customer-facing marketing page, product page, or campaign page — even if the user doesn't explicitly say "landing page". If the page has a signup button or pricing table, this skill applies.
 ---
 
 # Landing Page UX and Conversion Optimization
