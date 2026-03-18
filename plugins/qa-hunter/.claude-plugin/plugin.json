@@ -1,0 +1,10 @@
+{
+  "name": "qa-hunter",
+  "version": "1.0.0",
+  "description": "Automated exploratory bug hunting on web applications — explore, detect, and report bugs via browser automation",
+  "author": {
+    "name": "WillDev.IT"
+  },
+  "license": "MIT",
+  "keywords": ["qa", "testing", "bugs", "browser", "exploratory", "automation"]
+}

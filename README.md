@@ -1,6 +1,6 @@
 # Claude Plugins Marketplace
 
-Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins for design, UX, and development workflows.
+Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins for design, UX, QA, and development workflows.
 
 ## Plugins
 
@@ -34,7 +34,35 @@ Expert UI/UX plugin covering the full design lifecycle: conception, validation, 
 | `ux-admin-portal` | Data tables, CRUD, bulk actions, RBAC, search/filters |
 | `ux-audit-framework` | Severity scales, scoring rubric, audit methodology |
 
-Each skill includes detailed reference files (48,000+ words of UX knowledge).
+---
+
+### qa-hunter
+
+Automated exploratory bug hunting on web applications. Explores via browser automation, detects bugs, and produces structured reports.
+
+**Prerequisites:** Requires `claude --chrome` or the [Claude in Chrome](https://chromewebstore.google.com/detail/claude-in-chrome/) extension for browser automation.
+
+**Commands:**
+
+| Command | Description |
+|---------|-------------|
+| `/qa-explore` | Explore a running web app to find bugs (main command) |
+| `/qa-audit` | Systematic audit with specific checklists (i18n, a11y, forms, etc.) |
+| `/qa-report` | Compile raw findings into a structured bug report |
+
+**Agents:**
+
+| Agent | Role |
+|-------|------|
+| `qa-explorer` | Navigates apps via browser, interacts with UI, discovers bugs |
+| `qa-reporter` | Validates findings, filters false positives, compiles reports |
+
+**Skills (auto-activated):**
+
+| Skill | Domain |
+|-------|--------|
+| `qa-foundations` | Oracle layers, bug severity (S0-S4), confidence levels, report format |
+| `qa-web-testing` | Testing checklists: forms, navigation, CRUD, console, network, i18n, a11y |
 
 ## Installation
 
@@ -42,33 +70,36 @@ Each skill includes detailed reference files (48,000+ words of UX knowledge).
 # Add the marketplace
 claude plugin marketplace add WilliamFontaine/claude-plugins-marketplace
 
-# Install the plugin
+# Install a plugin
 claude plugin install ux-expert@willdev-plugins
+claude plugin install qa-hunter@willdev-plugins
 ```
 
-The plugin will be available in your next Claude Code session.
+Each plugin will be available in your next Claude Code session.
 
 ## Structure
 
 ```
 plugins/
-└── ux-expert/
+├── ux-expert/
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── agents/
+│   ├── commands/
+│   └── skills/
+│       ├── ux-foundations/
+│       ├── ux-landing-page/
+│       ├── ux-saas-app/
+│       ├── ux-admin-portal/
+│       └── ux-audit-framework/
+└── qa-hunter/
     ├── .claude-plugin/
     │   └── plugin.json
     ├── agents/
-    │   ├── ux-researcher.md
-    │   ├── ux-designer.md
-    │   └── ux-auditor.md
     ├── commands/
-    │   ├── ux-design.md
-    │   ├── ux-validate.md
-    │   └── ux-audit.md
     └── skills/
-        ├── ux-foundations/
-        ├── ux-landing-page/
-        ├── ux-saas-app/
-        ├── ux-admin-portal/
-        └── ux-audit-framework/
+        ├── qa-foundations/
+        └── qa-web-testing/
 ```
 
 ## License
