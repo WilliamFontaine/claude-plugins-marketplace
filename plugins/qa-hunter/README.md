@@ -4,10 +4,9 @@ Automated exploratory bug hunting on web applications. This Claude Code plugin e
 
 ## Prerequisites
 
-QA Hunter uses browser automation to test web applications. You need one of:
+QA Hunter uses browser automation to test web applications. You need a Chrome DevTools MCP server configured. The recommended option:
 
 - **Claude Code with Chrome:** Launch with `claude --chrome`
-- **Claude in Chrome extension:** Install from [Chrome Web Store](https://chromewebstore.google.com/detail/claude-in-chrome/)
 
 ## Commands
 

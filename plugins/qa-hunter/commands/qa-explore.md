@@ -24,9 +24,9 @@ Parse `$ARGUMENTS`:
 
 ### Phase 2: Check Browser Connection
 
-1. Call `tabs_context_mcp` to verify browser connection
-2. If it fails or returns no tabs: "Browser connection not available. Make sure you launched Claude Code with `claude --chrome` or have the Claude in Chrome extension active."
-3. If connected, create a new tab with `tabs_create_mcp` and navigate to the target URL
+1. Call `list_pages` to verify browser connection
+2. If it fails or returns no pages: "Browser connection not available. Make sure you launched Claude Code with `claude --chrome`."
+3. If connected, create a new page with `new_page` and navigate to the target URL
 
 ### Phase 3: Load Knowledge Base
 
