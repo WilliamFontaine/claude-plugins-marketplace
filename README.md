@@ -40,7 +40,7 @@ Expert UI/UX plugin covering the full design lifecycle: conception, validation, 
 
 Automated exploratory bug hunting on web applications. Explores via browser automation, detects bugs, and produces structured reports.
 
-**Prerequisites:** Requires `claude --chrome` or the [Claude in Chrome](https://chromewebstore.google.com/detail/claude-in-chrome/) extension for browser automation.
+**Prerequisites:** Requires a Chrome DevTools MCP server (launch with `claude --chrome`).
 
 **Commands:**
 

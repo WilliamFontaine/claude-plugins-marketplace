@@ -47,7 +47,7 @@ Also read `qa-foundations/SKILL.md` for severity and oracle classification.
 ### Phase 3: Check Browser and Authenticate
 
 Same as `/qa-explore` Phases 2 and 4:
-1. Verify browser connection with `tabs_context_mcp`
+1. Verify browser connection with `list_pages`
 2. Handle authentication if needed
 
 ### Phase 4: Launch Targeted Explorer
